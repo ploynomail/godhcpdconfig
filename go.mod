@@ -1,4 +1,4 @@
-module godhcpdconfig
+module github.com/ploynomail/godhcpdconfig
 
 go 1.22.1
 
