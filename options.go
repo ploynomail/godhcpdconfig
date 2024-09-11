@@ -2,13 +2,14 @@ package godhcpdconfig
 
 import (
 	"fmt"
-	"godhcpdconfig/isccfg"
 	"io"
 	"net"
 	"os"
 	"sort"
 	"strconv"
 	"strings"
+
+	"github.com/ploynomail/godhcpdconfig/isccfg"
 )
 
 type CustomOptions map[int][]byte
