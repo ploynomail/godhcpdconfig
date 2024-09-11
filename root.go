@@ -2,7 +2,7 @@ package godhcpdconfig
 
 import (
 	"fmt"
-	"godhcpdconfig/isccfg"
+	"github.com/ploynomail/godhcpdconfig/isccfg"
 	"io"
 	"strconv"
 	"strings"

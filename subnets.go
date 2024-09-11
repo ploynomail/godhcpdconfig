@@ -2,11 +2,12 @@ package godhcpdconfig
 
 import (
 	"fmt"
-	"godhcpdconfig/isccfg"
 	"io"
 	"net"
 	"sort"
 	"strings"
+
+	"github.com/ploynomail/godhcpdconfig/isccfg"
 )
 
 type ToSubnetI interface {
