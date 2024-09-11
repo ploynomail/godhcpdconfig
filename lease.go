@@ -1,8 +1,9 @@
 package godhcpdconfig
 
 import (
-	leases "godhcpdconfig/lease"
 	"os"
+
+	leases "github.com/ploynomail/godhcpdconfig/lease"
 )
 
 type Lease struct {

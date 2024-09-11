@@ -7,7 +7,7 @@ import (
 	"os"
 	"sort"
 
-	"godhcpdconfig/isccfg"
+	"github.com/ploynomail/godhcpdconfig/isccfg"
 
 	"github.com/timtadh/lexmachine"
 )
