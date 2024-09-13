@@ -10,7 +10,7 @@ import (
 var (
 	lkwd       = []byte("\nlease ")
 	hkwd       = []byte("\nhost ")
-	closeParen = []byte("}")
+	closeParen = []byte("}\n")
 )
 
 /*Parse reads from a dhcpd.leases file and returns a list of leases.  Unknown fields are ignored
@@ -43,7 +43,6 @@ func Parse(r io.Reader) []Lease {
 		l := Lease{}
 		l.parse(scanner.Bytes())
 		rtn = append(rtn, l)
-
 	}
 	return rtn
 }
